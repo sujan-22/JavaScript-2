@@ -1,0 +1,51 @@
+body {
+    background-image: url("./img.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+        
+}
+header h1 {
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color: black;
+    text-align: center;
+    font-style: italic;
+    margin: 1em;
+}
+.main {
+    text-align: center !important;
+}
+.main p a:hover {
+    background-color:cadetblue ;
+    color: white;
+    font-weight: bold;
+    font-style: italic;
+    border: 2px solid black;
+}
+
+.main div {
+    background-color: floralwhite;
+    margin: 5px;
+}
+
+.main label {
+    font-weight: bold;
+}
+
+#answer .p-2 .m-1 .btn .btn-success {
+    color: black;
+}
+
+#answer, #answer2, #answer3, #answer4, #answer5 {
+    background-color: aqua;
+    background-position: center;
+    color: black;
+}
+
+footer h6 {
+    color: white;
+    text-align: center;
+    border-top: 1px dashed white;
+    padding-top: 1em;
+    margin-top: 25em;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
